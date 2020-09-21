@@ -1,0 +1,96 @@
+)O+_06 Integration parameters  (WARNING: Do not delete this line!!)
+) Lines beginning with `)' are ignored.
+) Note: densities must be in same unit distance of vertices!
+) Author:        Andre Amarante Luiz        (A. Amarante)     - a.amarante.br@gmail.com
+) Last modification: 09/15/2020
+)---------------------------------------------------------------------
+) Integration options:
+)---------------------------------------------------------------------
+ minimum radii R (distance unit) = 0.25
+ maximum radii R (IC for NR method) (distance unit) = 0.40
+ minimum angle theta (degrees) = 0
+ maximum angle theta (degrees) = 360
+ minimum height Z (distance unit) = -0.01
+ maximum height Z (IC for NR method) (distance unit) =  0.01
+ number of points in the ridge-line (angle increment) (max 10000) = 100
+ dump interval = 10
+)---------------------------------------------------------------------
+) These parameters do not need to be adjusted often:
+)---------------------------------------------------------------------
+ use Bisection or Newton-Raphson 1-D method (for R) ? (0 -> Bisec / 1 -> NR) = 1
+ accuracy (for R) = 1.0d-8
+ use absolute or relative error (for R) ? (0 -> abs / 1 -> rel) = 1
+ maximum number of iterations (for R) = 100
+ use Bisection or Newton-Raphson 1-D method (for Z) ? (0 -> Bisec / 1 -> NR) = 1
+ accuracy (for Z) = 1.0d-8
+ use absolute or relative error (for Z) ? (0 -> abs / 1 -> rel) = 1
+ maximum number of iterations (for Z) = 100
+)------------------------------------------------------
+ use Bisection or Newton-Raphson 1-D method (for THETA) ? (0 -> Bisec / 1 -> NR) = 1
+ accuracy (for THETA) = 1.0d-8
+ use absolute or relative error (for THETA) ? (0 -> abs / 1 -> rel) = 1
+ maximum number of iterations (for THETA) = 100
+)------------------------------------------------------
+ accuracy of polyhedron method = 1e-10
+ use mascons' method = yes
+ use potential from cubic file = yes
+ x-size = 1.2d-2
+ y-size = 1.2d-2
+ z-size = 1.2d-2
+)-------------------------------------------
+ equilibria output format (0 -> old / 1 -> new) = 0
+ make equilibria stability = yes
+ make ridge-line = yes
+ make ridge-line stability = yes
+)-------------------------------------------
+ accuracy of identical equilibrium points = 1.0d-4
+ initial density (mass_unit/distance_unit^3) = 1.19d12
+ final density (mass_unit/distance_unit^3) = 1.19d12
+ density decrement/increment (mass_unit/distance_unit^3) = 0.1d12
+ initial rotation period (hours) = 4.296057d0
+ final rotation period (hours) = 4.296057d0
+ rotation period decrement/increment (hours) = 0.01d0
+ use conservation of angular momentum (for variation in the rotation period) = no
+ factor = 1.0
+) a (distance_unit)= 0
+) b (distance_unit)= 0
+) c (distance_unit)= 0
+ a (distance_unit)= 0.28
+ b (distance_unit)= 0.28
+ c (distance_unit)= 0.28
+)---------------------------------------------------------------------
+ gravitational constant (distance_unit^3/time_unit^2/mass_unit) = 6.67428d-20
+)---------------------------------------------------------------------
+ stop integration by collapsed equilibrium point = no
+ minimum distance between points = 1.0d0
+ stop integration by first shedding = no
+ minimum distance between surface= 1.0d0
+)---------------------------------------------------------------------
+ print output messages = yes
+)---------------------------------------------------------------------
+) Solar Radiation Pressure (SRP)
+)---------------------------------------------------------------------
+ use Solar Radiation Pressure = no
+ sun initial angle (degrees) = 0.d0
+ sun final angle (degrees) = 330.d0
+ sun angle increment (degrees) = 30.d0
+ sun mass (mass_unit) = 1.9891d30
+ asteroid initial angle (degrees) = 0.d0
+ asteroid final angle (degrees) = 356.4d0
+ asteroid angle increment (degrees) = 3.6d0
+) Sun coordinates:
+) Cartesian
+)  0. 0. 0.
+)  0. 0. 0.
+ Asteroidal
+  168507040.768 0.20375 6.0349
+  66.2231       182.0609  101.7039
+ average over the solar spectrum   = 1.0
+ initial particle radius (distance_unit) = 1.0d-7
+ final particle radius (distance_unit) = 1.0d-6
+ particle radius increment (distance_unit) = 1.0d-7
+ S0 (mass_unit/time_unit^3)  = 1.36d3
+ astronomical unit (distance_unit)  = 1.495978707d8
+ obliquity of central body (degrees) = 177.6
+ speed of light (distance_unit/time_unit) = 299792.197442722
+ cylindrical shadow radius (distance_unit) (use negative value to turn off) = 0.29
