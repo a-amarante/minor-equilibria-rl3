@@ -68,7 +68,7 @@ Unfortunately, the code needs to be recompiled any time parameters in the ``equi
 Disclaimers
 ------------
 
-* The Ridge-Line algorithm have been tested with the ``Bissection`` and ``Newton-Raphson`` methods.
+* The Ridge-Line algorithm have been tested with the ``Bisection`` and ``Newton-Raphson`` methods.
 * I've fixed all the errors I've found.  If you find a bug, let me know so we can try to fix it.
 * Any feedback is appreciated, especially bugs, suggestions, or possible contributions.
 * Are you going to publish? Please acknowledge the use of my code in any publication referencing:
